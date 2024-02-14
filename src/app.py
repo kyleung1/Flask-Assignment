@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def main():
     return '''
+    <h1> Enter text, numbers, or any characters in the input box to have it printed. </h1>
      <form action="/echo_user_input" method="POST">
          <input name="user_input">
          <input type="submit" value="Submit!">
